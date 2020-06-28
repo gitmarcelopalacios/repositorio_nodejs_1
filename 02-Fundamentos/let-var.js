@@ -1,10 +1,14 @@
+/*
 let nombre = 'Wolverine'
 if (true) {
-    let nombre = 'Magneto'
+    nombre = 'Magneto'
 }
-nombre = 'Wolverine1'
-nombre = 'Wolverine2'
-nombre = 'Wolverine3'
-nombre = 'Wolverine4'
-
 console.log(nombre);
+*/
+
+let i = 'otro ámbito';
+
+for (i = 0; i <= 5; i++) {
+    console.log(`i: ${ i }`)
+}
+console.log(`i: ${ i }`)
